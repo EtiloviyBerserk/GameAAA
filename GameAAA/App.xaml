@@ -1,0 +1,21 @@
+﻿<Application x:Class="GameAAA.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GameAAA"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="btnStyle" TargetType="Button">
+            <!--"x:Key" это название нашего стиля,к которому мы будем обращаться, "TargetType" это тип объекта, к которому стиль применяем -->
+            <Setter Property="Background" Value="White" />
+            <!--Задний фон-->
+            <Setter Property="Margin" Value="1" />
+            <!--Отступ(Чтоб было видно нашу решётку)-->
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <!--Расположение текста в кнопке-->
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <!--Тоже самое-->
+            <Setter Property="FontSize" Value="0.5" />
+            <!--Размерчик(доваольно маленький,чтоб его заметить, но не в размере дело, хехе)-->
+        </Style>
+    </Application.Resources>
+</Application>
